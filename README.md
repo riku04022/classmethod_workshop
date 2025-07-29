@@ -8,30 +8,30 @@
 ### 基本的な演算
 ```bash
 # 加算
-sh ./calc.sh + 1 2
+bash ./calc.sh + 1 2
 # 出力: 3
 
 # 減算
-sh ./calc.sh - 5 3
+bash ./calc.sh - 5 3
 # 出力: 2
 
 # 乗算（エスケープ必要）
-sh ./calc.sh \* 15 20
+bash ./calc.sh \* 15 20
 # 出力: 300
 
 # 除算
-sh ./calc.sh / 10 2
+bash ./calc.sh / 10 2
 # 出力: 5
 ```
 
 ### エラーハンドリング
 ```bash
 # 無効な演算子
-sh ./calc.sh hoge 15 20
+bash ./calc.sh hoge 15 20
 # 出力: error
 
 # ゼロ除算
-sh ./calc.sh / 10 0
+bash ./calc.sh / 10 0
 # 出力: error
 ```
 
