@@ -47,3 +47,6 @@ bash ./calc.sh / 10 0
 
 ## AI開発支援
 GitHub Copilotの指示書が `.github/copilot-instructions.md` に含まれています。
+
+## MCP サーバー検証
+このプロジェクトは ClassMethod ワークショップの MCP（Model Context Protocol）サーバー検証にも使用されています。詳細は `MCP_VERIFICATION.md` を参照してください。
